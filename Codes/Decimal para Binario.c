@@ -9,7 +9,7 @@ int main(void){
 
     int num, num2, aux[100000], count=0;
 
-    printf("Insira um número inteiro positivo: ");
+    printf("Insira um nÃºmero inteiro positivo: ");
     scanf("%d", &num);
 
     num2 = num;
@@ -23,7 +23,7 @@ int main(void){
         num2 = num2/2;
 	}
 
-    printf("\nO numero %d em binário é ", num);
+    printf("\nO numero %d em binÃ¡rio Ã© ", num);
 
     for(; count >= 0; count--)
     	printf("%d", aux[count]);
