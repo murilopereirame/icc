@@ -4,3 +4,5 @@ A cópia é livre para a utilização em estudos! Sinta-se a vontade para baixar
 <strong>Exercícios resolvidos:</strong>
 - Conversão de binário para decimal
 - Conversão de decimal para binário
+
+Murilo Pereira - 2018
