@@ -10,7 +10,7 @@ int main(void){
  	int aux=0, num2, numCopy, pot;
     long long unsigned int num=0;
  	
-	printf("Insira um número binário: ");
+	printf("Insira um nÃºmero binÃ¡rio: ");
 	scanf("%lld", &num);
 	
 	num2 = num;
@@ -24,7 +24,7 @@ int main(void){
         pot += 1;        
     }
 
-    printf("\nO numero %lld em decimal é %d\n", num, aux);
+    printf("\nO numero %lld em decimal Ã© %d\n", num, aux);
 
     system("pause");
 }
