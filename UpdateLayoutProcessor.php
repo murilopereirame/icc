@@ -165,14 +165,14 @@ class UpdateLayoutProcessor implements LayoutProcessorInterface
                                         $is_required = true;
                                     }
                                 }                                
-                                $fields[$key]['children'][$childrenKey]['placeholder'] = $placeholder . ($is_required ? ' *' : '');                                
+                                $fields[$key]['children'][$childrenKey]['placeholder'] = $placeholder . ($is_required ? ' *' : '') . $childrenKey;                                
                             }
                         }
-                        if($fields[$key]['children'] == 'street'){
+                        /*if($fields[$key]['children'] == 'street'){
                             $fields[$key]['children'][1]['placeholder'] =  $placeholder.' Número';
                             $fields[$key]['children'][2]['placeholder'] =  $placeholder.' Bairro';
                             $fields[$key]['children'][3]['placeholder'] =  $placeholder.' Complemento';
-                        }
+                        }*/
                     } else {
                         if (isset($fields[$key]['validation']['required-entry'])
                             && $fields[$key]['validation']['required-entry']
